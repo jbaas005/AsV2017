@@ -66,6 +66,15 @@ public class Customer implements Serializable {
         this.companyCity = companyCity;
         this.email = email;
     }
+    
+    public Customer(String companyName, String companyAddress, String companyPostalCode, String companyCity, String email, int customerId) {
+        this.companyName = companyName;
+        this.companyAddress = companyAddress;
+        this.companyPostalCode = companyPostalCode;
+        this.companyCity = companyCity;
+        this.email = email;
+        this.customerId = customerId;
+    }
 
     public int getCustomerId() {
         return customerId;

@@ -1,2 +1,4 @@
 /project/target/
 *.mwb.bak
+/project/nbproject/
+.idea
